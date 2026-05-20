@@ -104,23 +104,6 @@ The preprocessing layer is intentionally lightweight so the comparison reflects 
 
 ---
 
-# Model Architecture
-
-The notebook trains three regression families on the same cleaned dataset.
-
-```mermaid
-%%{init: {"theme": "default", "themeVariables": {"fontSize": "11px"}, "flowchart": {"nodeSpacing": 25, "rankSpacing": 30}}}%%
-flowchart LR
-    A[Cleaned Predictors] --> B[Linear Regression]
-    A --> C[KNN, k=5]
-    A --> D[KNN, k=10]
-    A --> E[Decision Tree]
-    B --> F[Train & Test MSE]
-    C --> F
-    D --> F
-    E --> F
-    F --> G[Generalization Comparison]
-```
 
 ### Training Configuration
 - Loss / Metric: Mean Squared Error
