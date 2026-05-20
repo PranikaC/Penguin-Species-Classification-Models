@@ -28,13 +28,13 @@ Although the repository name references species classification, the notebook is 
 ```mermaid
 %%{init: {"theme": "default", "themeVariables": {"fontSize": "11px"}, "flowchart": {"nodeSpacing": 25, "rankSpacing": 30}}}%%
 flowchart TD
-    A[Palmer Penguins Dataset] --> B[Missing-Value Removal]
-    B --> C[Dummy Encoding: sex, species]
-    C --> D[Train/Test Split, test_size=0.2]
-    D --> E[Train Linear / KNN / Decision Tree]
-    E --> F[Compute Train & Test MSE]
-    F --> G[Compare Generalization]
-    G --> H[Bill-Depth Predictions]
+    A[Palmer Penguins Dataset] --> B[Dummy Encoding: sex, species]
+    B --> C[Missing-Value Removal]
+    C --> D[Drop bill_depth_mm and island from X]
+    D --> E[Train/Test Split, test_size=0.2]
+    E --> F[Train Linear / KNN / Decision Tree]
+    F --> G[Compute Train & Test MSE]
+    G --> H[Compare Generalization]
 ```
 
 ---
