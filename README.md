@@ -78,7 +78,7 @@ This is a regression problem.
 
 # Exploratory Data Analysis (EDA)
 
-### Key Insights
+### Key Findings
 - Penguin species clusters strongly on bill and flipper measurements, so encoding `species` as a feature transfers a large amount of signal to the regression task
 - Bill depth varies meaningfully across species and sex
 - A small number of rows have missing values and are removed before modeling
