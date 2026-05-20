@@ -158,7 +158,7 @@ The notebook reports the following mean squared error values:
 
 A dodged bar chart compares training error (cyan) and test error (red) for each model side-by-side. Linear regression stays low and roughly equal on both splits — the sign of a well-generalized fit. The decision tree shows the textbook overfitting silhouette: a training bar at zero next to a much taller test bar. Both KNN settings produce the largest errors overall, with the train-to-test gap shrinking as `k` grows from 5 to 10.
 
-<img src="images/train-test-mse.png" alt="Training and test MSE by model" width="500">
+<img src="train-test-mse.png" alt="Training and test MSE by model" width="500">
 
 ---
 
