@@ -162,7 +162,7 @@ A dodged bar chart compares training error (cyan) and test error (red) for each 
 
 ---
 
-# Model Interpretation
+# Demonstration & Applications
 
 The notebook demonstrates how a small, clean tabular dataset can still produce a clear bias-variance story — linear regression wins by virtue of model simplicity, and the chart makes the overfitting silhouette of the decision tree immediately obvious.
 
